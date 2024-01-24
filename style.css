@@ -1,0 +1,229 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+body {
+    background-image: url(image/bg.png);
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+    justify-content: space-around;
+}
+
+nav .title {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.landing-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    gap: 100px;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    font-size: small;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.btn-daftar {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 40px;
+    background-color: #5d5feff7;
+    color: white;
+}
+
+.btn-daftar:hover {
+    background-color: #3C3D9D;
+    color: #fff;
+}
+
+.btn-login {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 40px;
+    background-color: white;
+    color: #5d5fef;
+}
+
+.btn-login:hover {
+    background-color: #5ddefe;
+    color: #fff;
+}
+
+
+#hamburger {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+    .assets {
+        width: 300px;
+    }
+
+    .landing-text h3 {
+        font-size: 18px;
+    }
+
+    .landing-text h1 {
+        font-size: 30px;
+    }
+
+    .landing-text p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .assets-desktop {
+        width: 300px;
+    }
+
+    .landing-text h3 {
+        font-size: 20px;
+    }
+
+    .landing-text h1 {
+        font-size: 34px;
+    }
+
+    .landing-text p {
+        font-size: 16px;
+    }
+
+    .landing-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .btn-group {
+        justify-content: center;
+    }
+
+
+    .assets {
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .hidden {
+        display: none;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: space-between;
+    }
+
+    #hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #5d5fef;
+        height: 100dvh;
+        width: 100%;
+    }
+
+    #close {
+        display: block;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 40px;
+        right: 75px;
+        cursor: pointer;
+    }
+}

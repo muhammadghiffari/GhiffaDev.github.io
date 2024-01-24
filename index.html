@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghiff Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/image/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="title">Ghiffari</span>
+            <span id="hamburger">=</span>
+            <ul id="menu" class="hidden">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Our Service</a></li>
+                <span id="close">X</span>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="landing-1">
+            <div class="landing-text">
+                <h3 style="color: #953CD5">Halo, selamat datang</h3>
+                <h1>Temukan pekerjaan <br> freelance impianmu</h1>
+                <p>Bekerjalah di tempat yang membuat mu nyaman. <br>
+                    Daftar sekarang gratis.</p>
+                <div class="btn-group">
+                    <button class="btn-daftar">
+                        Daftar
+                    </button>
+                    <button class="btn-login">Login</button>
+                </div>
+            </div>
+            <img class="assets" src="image/assets.png" alt="Assets" width="500">
+        </section>
+    </main>
+    <footer>
+        <span>
+            &copy Copyright Designed By <a href="https://www.instagram.com/ghffxyz/" target="_blank">Ghiffari</a>
+        </span>
+        <span>
+            Faqs /Privacy Policy / Services
+        </span>
+    </footer>
+    <script>
+        const Hamburger = document.getElementById('hamburger')
+        const Menu = document.getElementById('menu')
+        const Close = document.getElementById('close')
+
+        Hamburger.addEventListener('click', () => {
+            Menu.classList.toggle('hidden')
+        })
+
+        Close.addEventListener('click', () => {
+            Menu.classList.toggle('hidden')
+        })
+    </script>
+</body>
+
+</html>
