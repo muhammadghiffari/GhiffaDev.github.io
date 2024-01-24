@@ -152,7 +152,7 @@ h1 {
     }
 
     .landing-text h1 {
-        font-size: 34px;
+        font-size: 24px;
     }
 
     .landing-text p {
@@ -174,7 +174,7 @@ h1 {
 
 
     .assets {
-        width: 400px;
+        width: 50%;
     }
 }
 
@@ -186,8 +186,7 @@ h1 {
 
     nav {
         flex-wrap: wrap;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding: 20px 80px;
         justify-content: space-between;
     }
 
@@ -225,5 +224,9 @@ h1 {
         top: 40px;
         right: 75px;
         cursor: pointer;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
