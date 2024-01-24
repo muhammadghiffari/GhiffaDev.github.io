@@ -186,7 +186,7 @@ h1 {
 
     nav {
         flex-wrap: wrap;
-        padding: 20px 80px;
+        padding: 20px 50px;
         justify-content: space-between;
     }
 
@@ -221,8 +221,8 @@ h1 {
         color: white;
         font-size: 30px;
         position: absolute;
-        top: 40px;
-        right: 75px;
+        top: 25px;
+        right: 80px;
         cursor: pointer;
     }
 
