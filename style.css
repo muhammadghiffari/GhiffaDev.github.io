@@ -39,6 +39,23 @@ nav {
     justify-content: space-around;
 }
 
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    background-color: #3C3D9D;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 nav .title {
     font-size: x-large;
     font-weight: 700;
@@ -93,11 +110,15 @@ h1 {
     padding: 8px 40px;
     background-color: #5d5feff7;
     color: white;
+
 }
 
 .btn-daftar:hover {
     background-color: #3C3D9D;
     color: #fff;
+    transition: 0.2s;
+    box-shadow: 4px 2px 16px 0px #ffffff,
+        4px 2px 16px 0px rgb(95 157 231 / 48%);
 }
 
 .btn-login {
@@ -186,7 +207,7 @@ h1 {
 
     nav {
         flex-wrap: wrap;
-        padding: 20px 50px;
+        padding: 20px 80px;
         justify-content: space-between;
     }
 
@@ -221,8 +242,8 @@ h1 {
         color: white;
         font-size: 30px;
         position: absolute;
-        top: 25px;
-        right: 80px;
+        top: 30px;
+        right: 75px;
         cursor: pointer;
     }
 
