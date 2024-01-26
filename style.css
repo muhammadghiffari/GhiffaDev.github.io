@@ -110,6 +110,7 @@ h1 {
     padding: 8px 40px;
     background-color: #5d5feff7;
     color: white;
+    box-shadow: 0 0 15px #ffffff;
 
 }
 
@@ -129,11 +130,15 @@ h1 {
     padding: 8px 40px;
     background-color: white;
     color: #5d5fef;
+    box-shadow: 0 0 15px #5d5fef;
 }
 
 .btn-login:hover {
     background-color: #5ddefe;
     color: #fff;
+    transition: 0.2s;
+    box-shadow: 4px 2px 16px 0px #ffffff,
+        4px 2px 16px 0px rgb(95 157 231 / 48%);
 }
 
 
@@ -207,7 +212,7 @@ h1 {
 
     nav {
         flex-wrap: wrap;
-        padding: 20px 80px;
+        padding: 20px 50px;
         justify-content: space-between;
     }
 
@@ -242,8 +247,8 @@ h1 {
         color: white;
         font-size: 30px;
         position: absolute;
-        top: 30px;
-        right: 75px;
+        top: 24px;
+        right: 52px;
         cursor: pointer;
     }
 
