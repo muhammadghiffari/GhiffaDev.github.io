@@ -25,6 +25,7 @@ ul {
 body {
     background-image: url(image/bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -92,7 +93,7 @@ h1 {
 .btn-group {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;  
     gap: 20px;
     cursor: pointer;
     transition-duration: 0.3s;
@@ -165,9 +166,6 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-    .assets-desktop {
-        width: 300px;
-    }
 
     .landing-text h3 {
         font-size: 20px;
