@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghiff Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./image/favicon/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="title">Ghiffari</span>
+            <span id="hamburger">=</span>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="service.html">Our Service</a></li>
+                <span id="close">x</span>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="landing-service">
+            <h1>Our Service</h1>
+            <table border="1">
+                <tr>
+                    <th>Product</th>
+                    <th>Difficulty</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;" rowspan="3">UI/ UX Design</td>
+                    <td class="dropdown">Small Projects or Specific Tasks
+                        <span class="dropdown-content">
+                            Designing the user interface for a landing page, improvements to certain design elements, or
+                            minor updates to the user experience.
+                        </span>
+                    </td>
+                    <td>$500 - $5000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">Intermediate Projects
+                        <span class="dropdown-content">
+                            Developing a UI/UX design for a simple mobile application, designing an e-commerce website
+                            with multiple features, or significant improvements to a product's user experience.
+                        </span>
+                    </td>
+                    <td>$5,000 - $20,000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">Large Projects or Companies
+                        <span class="dropdown-content">
+                            End-to-end design development for complex applications, total redesign projects of corporate
+                            websites, or user experience design for large software platforms.
+                        </span>
+                    </td>
+                    <td>$20,000 - $100,000</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;" rowspan="5">Web Design</td>
+                    <td class="dropdown">Simple Website Project
+                        <span class="dropdown-content">
+                            Personal website, online portfolio, or a simple landing page.
+                        </span>
+                    </td>
+                    <td>$1000 - $5000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">Medium-Sized Business Website
+                        <span class="dropdown-content">
+                            Small to medium-sized company website with features such as contact forms, social media
+                            integration, and several content pages.
+                        </span>
+                    </td>
+                    <td>$5,000 - $15,000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">Website Redesign
+                        <span class="dropdown-content">
+                            Total redesign of a website to improve user interface, functionality, and responsiveness.
+                        </span>
+                    </td>
+                    <td>$5,000 - $50,000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">E-Commerce Website
+                        <span class="dropdown-content">
+                            Online store with complete e-commerce functionality, payment systems, inventory management,
+                            and responsive design.
+                        </span>
+                    </td>
+                    <td>$10,000 - $50,000</td>
+                </tr>
+                <tr>
+                    <td class="dropdown">Corporate or Large Enterprise Website
+                        <span class="dropdown-content">
+                            Complex web design project for a large company, including advanced functionality, system
+                            integrations, and highly customized design.
+                        </span>
+                    </td>
+                    <td>$20,000 - $100,000</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <span>
+            &copy Copyright Designed By <a href="https://www.instagram.com/ghffxyz/" target="_blank">Ghiffari</a>
+        </span>
+        <span>
+            Faqs / Privacy Policy / Services
+        </span>
+    </footer>
+    <script>
+        const Hamburger = document.getElementById('hamburger')
+        const Menu = document.getElementById('menu')
+        const Close = document.getElementById('close')
+
+        Hamburger.addEventListener('click', () => {
+            Menu.classList.toggle('hidden')
+        })
+
+        Close.addEventListener('click', () => {
+            Menu.classList.toggle('hidden')
+        })
+    </script>
+</body>
+
+</html>

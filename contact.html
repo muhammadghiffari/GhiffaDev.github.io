@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghiff Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./image/favicon/favicon.ico">
+</head>
+<header>
+    <nav>
+        <span class="title">Ghiffari</span>
+        <span id="hamburger">=</span>
+        <ul id="menu" class="hidden">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="service.html">Our Service</a></li>
+            <span id="close">x</span>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="landing-3">
+        <h1>Get In Touch</h1>
+        <p class="form">Don't hesitate to get in touch with us! Feel free to use the form below or contact us via email
+            to ask
+            questions, provide feedback, or just say hi. We'd love to hear from you!</p>
+        <div class="landing-form">
+            <div class="landing-contact-1">
+                <h2>Contact Information</h2>
+                <h6>For further information, please contact us via email or phone.</h6>
+                <div class="contact">
+                    <div style="display: flex; align-items: center;">
+                        <img src="./image/bi_telephone-fill.png" alt="Telephone" width="19px">
+                        <a href="https://wa.me/6287791808938?text=Hello%20Muhammad%20Ghiffari" target="_blank">+62
+                            877-9180-8938</a>
+                    </div>
+                    <div style="display: flex; align-items: center;"">
+                        <img src=" ./image/ic_round-email.png" alt="Email" width="22px">
+                        <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=muhammadghiffari40@gmail.com"
+                            target="_blank">muhammadghiffari40@gmail.com</a>
+                    </div>
+                    <div style="display: flex; align-items: center;"">
+                        <img src=" ./image/mdi_location.png" alt="Location" width="23px">
+                        <a href="https://maps.app.goo.gl/m3bUmnFBHmTTCuDt6" target="_blank">SMK Negeri 40 Jakarta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="landing-contact-2">
+                <form action="">
+                    <div class="form-1">
+                        <div class="name">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="email">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="random@gmail.com">
+                        </div>
+                    </div>
+                    <div class="form-2">
+                        <div class="subject">
+                            <label for="text">Your Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Web Design: Ghiffari – Ui/Ux">
+                        </div>
+                        <div class="message">
+                            <label for="message">Message</label>
+                            <input type="text" id="message" name="message" placeholder="Write here your message">
+                        </div>
+                    </div>
+                    <button class="button">
+                        <p>Button</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <span>
+        &copy Copyright Designed By <a href="https://www.instagram.com/ghffxyz/" target="_blank">Ghiffari</a>
+    </span>
+    <span>
+        Faqs / Privacy Policy / Services
+    </span>
+</footer>
+<script>
+    const Hamburger = document.getElementById('hamburger')
+    const Menu = document.getElementById('menu')
+    const Close = document.getElementById('close')
+
+    Hamburger.addEventListener('click', () => {
+        Menu.classList.toggle('hidden')
+    })
+
+    Close.addEventListener('click', () => {
+        Menu.classList.toggle('hidden')
+    })
+</script>
+</body>
+
+</html>
